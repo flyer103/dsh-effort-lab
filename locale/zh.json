@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Effort 实验台",
+    "description": "在单个会话上对比提示词变体与推理档位，逐轮把 token、耗时、子 agent 派生数和压缩次数记成 JSONL 并汇总。",
+    "detail": "docs/DETAIL.md"
+  }
+}

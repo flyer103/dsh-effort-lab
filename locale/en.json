@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Effort lab",
+    "description": "A/B a prompt variant against reasoning effort on one session, then read tokens, wall time, subagent spawns and compaction back as one JSONL row per turn.",
+    "detail": "docs/DETAIL.md"
+  }
+}

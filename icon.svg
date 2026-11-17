@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Effort lab">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#924FF7"/>
+      <stop offset="1" stop-color="#4B7BFF"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="15" fill="url(#g)"/>
+  <g fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M25 15h14"/>
+    <path d="M28 15v13L19 44a5 5 0 0 0 4.4 7.5h17.2A5 5 0 0 0 45 44l-9-16V15"/>
+    <path d="M22.6 40h18.8"/>
+  </g>
+  <g fill="#fff">
+    <rect x="27.5" y="35" width="3.4" height="6" rx="1.2"/>
+    <rect x="32.6" y="31" width="3.4" height="10" rx="1.2"/>
+    <rect x="37.7" y="27" width="3.4" height="14" rx="1.2"/>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+node_modules/
+*.log
+.DS_Store
+tmp/
+
+# Local environment / secrets — never commit these
+.env
+.env.*
+!.env.example
+
+# npm pack tarballs
+*.tgz

@@ -1,0 +1,16 @@
+{
+  "id": "dsh-effort-lab",
+  "version": "0.1.0",
+  "main": "./lib/index.js",
+  "description": "Effort lab for DSH: arm a session, run prompt variants and effort tiers in blocks, and read back per-turn tokens, wall time, subagent spawns and compaction from one JSONL log.",
+  "contributes": {
+    "tools": [],
+    "skills": []
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/flyer103/dsh-effort-lab",
+  "testedWith": {
+    "dsh": "0.2.2-rc.3",
+    "note": "metadata only; DSH does not read this file and enforces nothing from it"
+  }
+}

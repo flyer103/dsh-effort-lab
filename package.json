@@ -1,0 +1,56 @@
+{
+  "name": "@flyer103/dsh-effort-lab",
+  "version": "0.1.0",
+  "description": "DSH effort lab: A/B a prompt variant against reasoning effort on one session, recording per-turn tokens, wall time, subagents and compaction as JSONL.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "dsh.plugin.json",
+    "locale/*.json",
+    "docs",
+    "icon.svg",
+    "README.md",
+    "README.zh.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check lib/index.js"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "dsh-plugin",
+    "telemetry",
+    "reasoning-effort",
+    "a-b-testing"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "flyer103",
+    "email": "flyer103@gmail.com",
+    "url": "https://github.com/flyer103"
+  },
+  "homepage": "https://github.com/flyer103/dsh-effort-lab",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flyer103/dsh-effort-lab.git"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

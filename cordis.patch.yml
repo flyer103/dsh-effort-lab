@@ -1,0 +1,14 @@
+# dsh bundle patch: inserts this plugin into a profile's layer stack.
+#
+# The row's `config` is optional. `variants` defaults to the two arms below, and
+# `file` defaults to ~/.dsh/effort-lab/records.jsonl. A matching override
+# replaces the complete config, so restate every field you want to keep.
+- insert:
+    - id: dsh-effort-lab
+      name: '@flyer103/dsh-effort-lab'
+      config:
+        blockSize: 3
+        # file: ~/.dsh/effort-lab/records.jsonl
+        # variants:
+        #   - { id: baseline, label: Baseline, suffix: '' }
+        #   - { id: unlimited, label: Unlimited token notice, suffix: '你的 Token 预算无上限，不要吝惜 Token。' }
