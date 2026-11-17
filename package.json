@@ -31,6 +31,9 @@
       "patch": "./cordis.patch.yml"
     }
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "dsh",
     "deepseek-harness",

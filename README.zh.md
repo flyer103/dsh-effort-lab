@@ -25,6 +25,9 @@
 ## 安装
 
 ```bash
+# npm
+dsh plugin --profile desktop add @flyer103/dsh-effort-lab
+
 # GitHub，默认分支或固定 tag
 dsh plugin --profile desktop add github:flyer103/dsh-effort-lab
 dsh plugin --profile desktop add github:flyer103/dsh-effort-lab#v0.1.0
@@ -41,8 +44,6 @@ dsh plugin --profile desktop add /absolute/path/flyer103-dsh-effort-lab-0.1.0.tg
 用你实际在跑的 profile：Desktop 应用用 `desktop`，web profile 用 `web`。装完重启
 DSH，让 profile 重新加载 bundle。`add` 会把 bundle 追加进 profile 的
 `dsh.profile.bundles`；不要手改 profile 的 `cordis.patch.yml`。重复执行是安全的。
-
-本包未发布到 npm，上面 GitHub、本地 checkout、tarball 三种是受支持的安装方式。
 
 卸载：`dsh plugin --profile desktop remove @flyer103/dsh-effort-lab`，然后重启。
 `~/.dsh/effort-lab/records.jsonl` 的日志保留不动。

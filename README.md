@@ -28,6 +28,9 @@ table.
 ## Install
 
 ```bash
+# npm
+dsh plugin --profile desktop add @flyer103/dsh-effort-lab
+
 # GitHub, default branch or a pinned tag
 dsh plugin --profile desktop add github:flyer103/dsh-effort-lab
 dsh plugin --profile desktop add github:flyer103/dsh-effort-lab#v0.1.0
@@ -45,9 +48,6 @@ Use the profile you actually run: `desktop` for the Desktop app, `web` for a web
 profile. Restart DSH afterwards so the profile reloads the bundle. `add` also
 appends the bundle to the profile's `dsh.profile.bundles`; do not edit the
 profile's `cordis.patch.yml` by hand. Re-running is safe.
-
-This package is not published to npm; the GitHub, local-checkout and tarball
-forms above are the supported install paths.
 
 Remove with `dsh plugin --profile desktop remove @flyer103/dsh-effort-lab`, then
 restart. The record log at `~/.dsh/effort-lab/records.jsonl` is left in place.
